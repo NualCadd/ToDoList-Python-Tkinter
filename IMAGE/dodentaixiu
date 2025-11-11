@@ -1,0 +1,13 @@
+from tkinter import *
+from PIL import Image
+image_list = [
+    Image.open()
+
+]
+window = Tk()
+window.geometry("800x800")
+window.title("Tài Xỉu")
+header = Label(text="Tài Xỉu SKIBIDI", font=("Arial",30,"bold"))
+header.pack()
+
+window.mainloop()
